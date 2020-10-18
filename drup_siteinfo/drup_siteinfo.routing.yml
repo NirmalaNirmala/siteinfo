@@ -1,0 +1,7 @@
+drup_siteinfo.first_page:
+  path: '/first-page'
+  defaults:
+    _controller: '\Drupal\drup_siteinfo\Controller\DrupSiteinfo::content'
+    _title: 'Hello World!'
+  requirements:
+    _permission: 'access content'
